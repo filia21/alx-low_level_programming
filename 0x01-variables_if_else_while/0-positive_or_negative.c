@@ -5,8 +5,7 @@
 #include <time.h>
 
 /**
- *  main function - Entry point
- *  Return: Always 0
+ *  main - Entry point
  */
 int main(void)
 
