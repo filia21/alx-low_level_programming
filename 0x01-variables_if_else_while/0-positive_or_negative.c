@@ -8,7 +8,6 @@
  *  main function - Entry point
  *  Return: Always 0
  */
-
 int main(void)
 
 {
@@ -26,7 +25,7 @@ int main(void)
 
 				else if (n == 0)
 
-				 	printf("%d is zero\n", n);
+					printf("%d is zero\n", n);
 
 				else
 
