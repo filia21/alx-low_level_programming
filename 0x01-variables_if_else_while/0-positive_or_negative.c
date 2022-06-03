@@ -5,13 +5,8 @@
 #include <time.h>
 
 /**
- *
- *  main - Entry point
- *
- *   
- *
+ *  main function - Entry point
  *  Return: Always 0
- *
  */
 
 int main(void)
