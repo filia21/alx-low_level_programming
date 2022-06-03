@@ -6,7 +6,7 @@
 
 /**
  *  main - Entry point
- *  return - 0
+ *  return : 0 always
  */
 int main(void)
 
