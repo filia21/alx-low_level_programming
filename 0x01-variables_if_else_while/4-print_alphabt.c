@@ -20,7 +20,7 @@ int main(void)
 
 	q = 'q';
 
-	for (low = 'a'; low <= 'z'; low++)
+		for (low = 'a'; low <= 'z'; low++)
 
 		{
 
