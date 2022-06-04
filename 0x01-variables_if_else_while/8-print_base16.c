@@ -8,11 +8,19 @@
 int main(void)
 {
 	int i;
+
 	char tmp;
+
 	for (i = 0; i <= 9; i++)
+
 		putchar(i);
+
 	for (tmp = 'a'; tmp <= 'f'; tmp++)
+
 		putchar(tmp);
+
 	putchar('\n');
+
 	return (0);
+
 }
