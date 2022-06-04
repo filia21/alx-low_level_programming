@@ -5,7 +5,7 @@
 #include <time.h>
 /**
  * main - entry function
- * Return : 0 always
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
