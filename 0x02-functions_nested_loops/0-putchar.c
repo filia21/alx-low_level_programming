@@ -1,15 +1,14 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 #include <unistd.h>
 /**
  * main - entry point
- * Return : 0 .
+ * Return : Always 0 (Success)
  */
 int main(void)
 {
 
 	char word[8] = "_putchar";
+
 	int i;
 
 	for (i = 0; i < 9; i++)
