@@ -18,7 +18,7 @@ int _isalpha(int c)
 	{
 		for (j = 'A'; j <= 'Z'; j++)
 
-			if (i == c || j == C)
+			if (i == c || j == c)
 
 				loup = 1;
 	}
