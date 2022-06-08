@@ -1,5 +1,5 @@
 #include<unistd.h>
-#include "main.h">
+#include "main.h"
 /**
 * main - Entry point
 * Return: Always 0 (Success
@@ -24,8 +24,6 @@ void print_alphabet(void)
 	for (i = 'a';i <= 'z';i++)
 		_putchar(i);
 	_putchar('\n');
-
-	return (0);
 
 }
 
