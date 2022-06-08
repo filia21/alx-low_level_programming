@@ -9,8 +9,7 @@
  */
 int print_sign(int num)
 {
-	int num;
-
+	
 	int value = 0;
 
 	if (num > 0)
