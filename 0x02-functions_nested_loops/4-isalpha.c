@@ -12,13 +12,15 @@ int _isalpha(int c)
 
 	int loup = 0;
 
-	char i;
+	char i, j;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		if (i == c || i == C)
+		for (j = 'A'; j <= 'Z'; j++)
 
-			loup = 1;
+			if (i == c || j == C)
+
+				loup = 1;
 	}
 
 	return (loup);
