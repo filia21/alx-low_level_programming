@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * largest_number - return the largest intiger
+ * largest_number - returns the largest of 3 numbers
  * @a: firist intiger
  * @b: second intiger
  * @c: third intiger
  * Return: largest number
  */
-int largest_number(int a ,int b, int c)
+
+int largest_number(int a, int b, int c)
 {
 	int largest;
 
