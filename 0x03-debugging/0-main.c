@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * main - test the function that prints negative or positive
  * Return: 0
