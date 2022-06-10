@@ -20,9 +20,9 @@ int main(void)
 		else
 			printf("%d ", n);
 	}
-	_putchar(32);
+	printf(" ");
 
-	_putchar('\n');
+	printf("\n");
 
 	return (0);
 }
