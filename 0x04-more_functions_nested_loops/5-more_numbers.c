@@ -4,12 +4,9 @@
  * more_numbers - print numbers 0 to 14 10 timems
  * Return: Nothing.
  */
-
 void more_numbers(void)
 {
-	int i;
-
-	int j;
+	int i, j;
 
 	for (i = 0; i < 10; i++)
 	{
@@ -20,7 +17,6 @@ void more_numbers(void)
 
 			_putchar(j % 10 + '0');
 		}
-		
 		_putchar('\n');
 	}
 }
