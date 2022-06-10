@@ -19,10 +19,8 @@ int main(void)
 			printf("Buzz");
 		else
 			printf("%d ", n);
-
-		if (n < 100)
-			_putchar(32);
 	}
+	_putchar(32);
 	_putchar('\n');
 	return (0);
 }
