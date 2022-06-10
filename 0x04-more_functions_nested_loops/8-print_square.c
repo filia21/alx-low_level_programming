@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * print_square - print square
+ * print_square - Write a function that prints a square
  * @size: input intiger
  * Return: Nothing.
  */
-
 void print_square(int size)
 {
 	int j, i;
@@ -17,9 +16,7 @@ void print_square(int size)
 			for (j = 0; j < size; j++)
 				_putchar('#');
 			_putchar('\n');
-
 		}
-
 	}
 	else
 		_putchar('\n');
