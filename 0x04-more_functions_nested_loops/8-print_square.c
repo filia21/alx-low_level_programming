@@ -2,16 +2,16 @@
 
 /**
  * print_square - Write a function that prints a square
- * @size: input intiger
- * Return: Nothing.
+ * @size: An input intiger
+ * Return: Always 0.
  */
 void print_square(int size)
 {
-	int j, i;
+	int i, j;
 
 	if (size > 0)
 	{
-		for (i= 0; i < size; i++)
+		for (i = 0; i < size; i++)
 		{
 			for (j = 0; j < size; j++)
 				_putchar('#');
