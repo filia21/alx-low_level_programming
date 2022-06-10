@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_diagonal - print the character '\' 
- * @n: the number of times '\' will be printed
- * Retun=rn: Nothin.g
+ * print_diagonal - print the character
+ * @n: input intiger
+ * Return: Nothing
  */
 
 void print_diagonal(int n)
