@@ -2,7 +2,7 @@
 
 /**
  * print_square - print square
- * @size: initial intiger
+ * @size: input intiger
  * Return: Nothing.
  */
 
