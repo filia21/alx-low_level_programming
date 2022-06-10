@@ -1,21 +1,26 @@
 #include "main.h"
+
 /**
  * print_diagonal - print the character '\' 
  * @n: the number of times '\' will be printed
- * Retun=rn: Nothing
+ * Retun=rn: Nothin.g
  */
 
 void print_diagonal(int n)
 {
-	int i;
+	int i, j;
 
 	if (n > 0)
 	{
 		for (i = 0; i < n; i++)
-			_putchar(' ');
+		{
+			for (j = 0; j < i; j++)
+				_putchar(' ');
+
 		_putchar(92);
 		_putchar('\n');
 
+		}
 	}
 
 	else
