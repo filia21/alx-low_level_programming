@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * *_strcpy - function to copy strings
  * @dest: the first parameter
