@@ -3,7 +3,7 @@
 /**
  * cap_string - capitalize all string
  * @s: string parameter
- * @Return: string
+ * Return: string
  */
 char *cap_string(char *s)
 {
@@ -19,7 +19,7 @@ char *cap_string(char *s)
 
 		for (j = 0; j < size; j++)
 		{
-			if (c == seps[j] && s[i+1] >= 'a' && s[i+1] <= '2')
+			if (c == seps[j] && s[i+1] >= 'a' && s[i+1] <= 'z')
 			{
 				s[i + 1] = 'A' + (s[i + 1] - 'a');
 				break;
