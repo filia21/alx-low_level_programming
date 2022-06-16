@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - function to concatinate strings
+ * *_strcat - function to concatinate strings
  * @dest: string to be concatinated
  * @src: first char parameter
  * Return: a pointer
