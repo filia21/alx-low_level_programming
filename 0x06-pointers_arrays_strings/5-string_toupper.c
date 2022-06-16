@@ -3,7 +3,7 @@
 /**
  * string_toupper - change all letter to uppercase
  * @s: first parameter
- * @Return: intinger
+ * Return: intinger
  */
 char *string_toupper(char *s)
 {
