@@ -15,7 +15,7 @@ char *cap_string(char *s)
 
 	while (s[i] != 0)
 	{
-		char c = s[1];
+		char c = s[i];
 
 		for (j = 0; j < size; j++)
 		{
