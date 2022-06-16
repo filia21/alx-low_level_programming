@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
  * _strncpy - function that copies string
  * @dest: first pointer 
  * @src: second pointer
  * @n: third parameter
- * Return: character
+ * Return: A pointer
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -16,12 +17,14 @@ char *_strncpy(char *dest, char *src, int n)
 		len++;
 		src++;
 	}
+
 	len++;
 
 	if (n > len)
 		n = len;
 
 	src = start;
+
 	for (; i < n; i++)
 		*dest++ = *src++;
 
