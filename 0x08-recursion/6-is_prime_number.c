@@ -13,7 +13,7 @@ int is_prime_number(int n)
 		return (0);
 	if (n < 3)
 		return (1);
-	return (is_divisable(n, civ));
+	return (is_divisable(n, div));
 }
 /**
  * is_divisable - checks if number is prime or not
