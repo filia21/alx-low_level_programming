@@ -1,4 +1,4 @@
-iinclude "main.h"
+#include "main.h"
 #include <stdlib.h>
 /**
  * _strdup - function to contain copy of poiinter
