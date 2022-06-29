@@ -1,0 +1,27 @@
+iinclude "main.h"
+#include <stdlib.h>
+/**
+ * _strdup - function to contain copy of poiinter
+ * @str: first parameter
+ * Return: poiinter
+ */
+char *_strdup(char *str)
+{
+	int i, j;
+	char *p;
+
+	if (str == 0)
+		return (NULL);
+	for (j = 0; str[j] != '\0'; j++)
+	{
+	}
+	p = malloc(sizeof(char) * (j + 1));
+	if (p == 0)
+		return (NULL);
+	for (i = 0; *(str + i) != '\0'; i++)
+	{
+		*(p + i) = *(str + i);
+	}
+	*(p + i) = '\0';
+	return (p);
+}
