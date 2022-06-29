@@ -1,11 +1,10 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
  * main - print reuslt of multiplication
  * @argc: count of parameter
  * @argv: array parameter
- * Retun: intiger value
+ * Return: intiger value
  */
 int main(int argc, char *argv[])
 {
