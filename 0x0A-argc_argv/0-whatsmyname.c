@@ -3,7 +3,7 @@
 /**
  * main - prints the executable file name
  * @argc: argument counter parameter
- * @agrv: array character parameter
+ * @argv: array character parameter
  * Return: Always 0
  */
 int main(int argc, char *argv[])
