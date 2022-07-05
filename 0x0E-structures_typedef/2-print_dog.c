@@ -15,4 +15,4 @@ void print_dog(struct dog *d)
 		d->owner = "(nil)";
 
 	printf("Name: %s\nAge: %0.6f\nOwner: %s\n", d->name, d->age, d->owner);
-}	
+}
