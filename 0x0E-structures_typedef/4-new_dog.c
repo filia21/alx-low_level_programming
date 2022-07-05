@@ -7,7 +7,7 @@
  * @owner: third parameter
  * Return: Pointer
  */
-dog_t *new_dog(char *name, char *owner, float age)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t p;
 
