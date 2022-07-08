@@ -5,7 +5,7 @@
  * @array: A pointer to array
  * @size: Size of the array
  * @cmp: cmp(function) to compare
- * Return: The index of the first element 
+ * Return: The index of the first element
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
