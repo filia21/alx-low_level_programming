@@ -1,7 +1,6 @@
-
 #include <stdlib.h>
 #include <stdio.h>
-#include "function_pointers.h"
+
 /**
  * array_iterator - function to iterat elements
  * @array: first parameter
