@@ -1,12 +1,12 @@
 #include <stdlib.h>
-#include "calc.h"
+#include "3-calc.h"
 
 /**
- * get_op_fun - get operation and perforn
+ * get_op_func - get operation and perforn
  * @s: An input char pointer
  *  Return: a pointer
  */
-int (*get_op_fun(char *s))(int, int)
+int (*get_op_func(char *s))(int, int)
 {
 	 op_t ops[] = {
 		 {"+", op_add},
