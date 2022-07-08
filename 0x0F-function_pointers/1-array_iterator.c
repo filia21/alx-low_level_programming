@@ -1,5 +1,4 @@
 #include <stdlib.h>
-
 /**
  * array_iterator - function to iterat elements
  * @array: first parameter
