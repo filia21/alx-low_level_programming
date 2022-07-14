@@ -1,4 +1,5 @@
 #include "lists.h"
+
 /**
  * free_list - function that frees
  * @head: first parameter
@@ -7,8 +8,8 @@
 void free_list(list_t *head)
 {
 	list_t *temp;
-	temp = head;
 
+	temp = head;
 	while (head)
 	{
 		temp = head;
