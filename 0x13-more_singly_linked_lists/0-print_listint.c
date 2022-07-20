@@ -3,8 +3,9 @@
 /**
  * size_t print_listint - function to print
  * @h: a pointer parameter
- * Return: number of nodes
- * Description: single linked list project
+ *
+ *  Description: single linked list project
+ * Return: intiger
  */
 
 size_t print_listint(const listint_t *h)
